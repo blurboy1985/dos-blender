@@ -1,0 +1,23 @@
+{
+  "reviewed_on": "2026-09-20",
+  "default": {
+    "email": "info@singstat.gov.sg",
+    "emailLabel": "DOS general enquiries",
+    "source": "https://tablebuilder.singstat.gov.sg/faq",
+    "chatUrl": "https://www.singstat.gov.sg/chatwithsandra-beta"
+  },
+  "officers": {
+    "statistics": {
+      "role": "Statistics officer"
+    },
+    "digital": {
+      "role": "Digital services officer"
+    },
+    "standards": {
+      "role": "Statistical standards officer"
+    },
+    "surveys": {
+      "role": "Surveys officer"
+    }
+  }
+}

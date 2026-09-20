@@ -1,0 +1,16 @@
+__pycache__/
+*.blend1
+Unreal/**/Binaries/
+Unreal/**/DerivedDataCache/
+Unreal/**/Intermediate/
+Unreal/**/Saved/
+Unreal/**/*.sln
+Unreal/**/.vs/
+
+# Rebuildable web output, deployment bundles and local configuration
+node_modules/
+dist/
+*.tar.gz
+.env
+.env.*
+!.env.example

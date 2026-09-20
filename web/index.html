@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <meta name="theme-color" content="#112d36"/>
+  <meta name="description" content="Step inside a conceptual DOS office and explore Singapore's statistics, digital services, standards and surveys."/>
+  <meta property="og:title" content="DOS Discovery Office"/>
+  <meta property="og:image" content="https://dos-discovery-office.daniel-tianwen.chatgpt.site/assets/overview.png"/>
+  <title>DOS Discovery Office · An interactive visit</title>
+</head>
+<body>
+  <main id="app">
+    <div id="viewport" aria-label="Interactive three-dimensional office"></div>
+    <header>
+      <a class="brand" href="#" id="brand"><b>DOS<span>↗</span></b><span>DISCOVERY<br/>OFFICE</span></a>
+      <div class="header-end"><button id="edit-avatar" class="avatar-button" hidden>My avatar</button><span class="concept">CONCEPT EXPERIENCE</span><button id="help" class="icon-button" aria-label="Show visitor guide">?</button></div>
+    </header>
+    <section id="welcome" aria-labelledby="welcome-title">
+      <div class="eyebrow"><span></span> A VISIT TO THE DEPARTMENT OF STATISTICS</div>
+      <h1 id="welcome-title">Behind every number,<br/><em>a story to discover.</em></h1>
+      <p>Step inside our conceptual office. Explore the data, tools and ideas that help us understand Singapore.</p>
+      <button class="primary" id="start" disabled>Preparing your visit… <span>↗</span></button>
+      <div class="visit-meta"><span>4 galleries</span><i>·</i><span>Explore at your own pace</span></div>
+      <div id="load-status" role="status">Loading the office model…</div>
+    </section>
+    <aside id="navigation" aria-label="Gallery navigation" hidden>
+      <div class="eyebrow">YOUR VISIT <span id="progress">0 / 4</span></div>
+      <button id="reception" class="room-button"><span class="number">⌂</span><span>Reception<small>Your starting point</small></span></button>
+      <div id="gallery-list"></div>
+      <button id="next" class="next-button">Next gallery <span>→</span></button>
+    </aside>
+    <div id="view-tools"><button id="overview" disabled>↗ &nbsp; View floor plan</button><button id="walk" hidden>↘ &nbsp; Back to walking</button></div>
+    <div id="location" hidden><span class="live-dot"></span><span id="location-text">Reception</span></div>
+    <button id="interact" class="interact" hidden><kbd>E</kbd><span>Explore this gallery</span><b>↗</b></button>
+    <button id="talk" class="interact talk-button" hidden><kbd>T</kbd><span>Talk to officer</span><b>↗</b></button>
+    <button id="gallery-toggle" hidden aria-expanded="false" aria-controls="navigation">Galleries ☰</button>
+    <div id="touch-controls" hidden role="group" aria-label="Walking controls"><small>HOLD TO WALK</small><button data-move="forward" aria-label="Walk forward">↑</button><div><button data-move="left" aria-label="Walk left">←</button><button data-move="back" aria-label="Walk backward">↓</button><button data-move="right" aria-label="Walk right">→</button></div></div>
+    <div id="camera-controls" hidden role="group" aria-label="Camera controls">
+      <small>CAMERA</small><div class="camera-grid">
+        <button id="zoom-out" aria-label="Zoom out" title="Zoom out"><b>−</b><span>Out</span></button>
+        <button id="reset-camera" aria-label="Reset camera view" title="Reset camera view"><b>⟲</b><span>Reset</span></button>
+        <button id="zoom-in" aria-label="Zoom in" title="Zoom in"><b>+</b><span>In</span></button>
+        <button id="turn-left" aria-label="Turn camera left" title="Turn camera left"><b>↶</b><span>Left</span></button>
+        <span class="camera-hint">Drag<br/>to look</span>
+        <button id="turn-right" aria-label="Turn camera right" title="Turn camera right"><b>↷</b><span>Right</span></button>
+      </div>
+    </div>
+    <div id="mobile-hint" hidden>Hold arrows to walk · Drag to look · Pinch to zoom</div>
+    <footer><span id="instructions">A new perspective on Singapore's official statistics.</span><a href="/assets/DOS_Discovery_Office_Package.zip" download>Original Blender + UE5 source <span>↓</span></a></footer>
+    <div class="concept-note">Conceptual layout · Not an actual DOS floor plan</div>
+  </main>
+  <dialog id="exhibit" aria-labelledby="exhibit-title">
+    <button id="close-exhibit" class="close" aria-label="Close gallery">×</button>
+    <div class="eyebrow" id="exhibit-category"></div>
+    <h2 id="exhibit-title"></h2><p id="exhibit-body"></p>
+    <details class="wall-display"><summary>View the gallery wall display</summary><img id="wall-image" alt=""/><p id="wall-description"></p><a id="wall-source" target="_blank" rel="noopener noreferrer">View the SingStat source ↗</a></details><div class="activity"><div class="eyebrow">PUT IT INTO PRACTICE</div><h3 id="question"></h3><div id="choices"></div><p id="feedback" role="status"></p></div>
+    <div class="source"><a id="source-link" target="_blank" rel="noopener noreferrer">Explore the official resource ↗</a><small id="source-label"></small><small>Content reviewed 20 Sep 2026 · External resources require internet access.</small></div>
+    <button id="find-officer" class="secondary">Find this gallery's officer <span>→</span></button>
+    <button id="continue" class="primary">Continue your visit <span>→</span></button>
+  </dialog>
+  <dialog id="avatar-creator" aria-labelledby="avatar-title">
+    <button id="close-avatar" class="close" aria-label="Close avatar creator">×</button>
+    <div class="eyebrow">MAKE THIS VISIT YOUR OWN</div><h2 id="avatar-title">Meet your avatar.</h2>
+    <div class="creator-layout"><div class="avatar-stage"><div id="avatar-preview" aria-label="Live full-body avatar preview"></div><span id="preview-name">Visitor</span><small>Your companion for the visit</small></div>
+    <form id="avatar-form"><button id="random-avatar" type="button" class="secondary">Surprise me · Random avatar <span>⤨</span></button><p id="random-status" role="status"></p><label>Your name<input id="avatar-name" name="name" placeholder="e.g. Alex" maxlength="32" required autocomplete="off"/></label>
+      <div class="form-row"><label>Gender<select name="gender"><option value="male">Man</option><option value="female">Woman</option></select></label><label>Hairstyle<select name="hair"></select></label></div>
+      <div class="form-row"><label>Skin colour<input type="color" name="skin" value="#c58c63"/></label><label>Hair colour<input type="color" name="hairColor" value="#30231f"/></label></div>
+      <label>Clothing<select name="outfit"></select></label>
+      <div class="form-row"><label>Top colour<input type="color" name="top" value="#487c74"/></label><label>Bottom / accent colour<input type="color" name="bottom" value="#263c49"/></label></div>
+      <p class="small">Your name and appearance stay in this visit. Randomise for a ready-to-go look, or choose your own.</p>
+      <button class="primary" type="submit">Let's explore <span>→</span></button>
+    </form></div>
+  </dialog>
+  <dialog id="officer-dialog" aria-labelledby="officer-title">
+    <button id="close-officer" class="close" aria-label="Close officer conversation">×</button><div class="eyebrow">LET'S TALK</div><h2 id="officer-title"></h2>
+    <p id="officer-greeting"></p><p class="small">This virtual guide connects you to a contact channel. It does not indicate that an officer is online.</p>
+    <label>How can we help?<select id="contact-kind"><option>Enquiry</option><option>Feedback</option></select></label>
+    <label>Your message <span class="optional">(optional)</span><textarea id="contact-message" rows="4" maxlength="1500" placeholder="Describe your enquiry or feedback…"></textarea></label>
+    <div class="contact-actions"><a id="email-officer" class="primary">Open email draft <span>↗</span></a><a id="sandra-officer" class="secondary" target="_blank" rel="noopener noreferrer" hidden>Chat with SANDRA <span>↗</span></a></div>
+    <p id="contact-recipient" class="small"></p><p class="small">Email opens your email app for review. Nothing is sent by this walkthrough. SANDRA opens on the SingStat website; your draft is not shared with the chatbot.</p>
+  </dialog>
+  <dialog id="guide" aria-labelledby="guide-title"><button id="close-guide" class="close" aria-label="Close visitor guide">×</button><div class="eyebrow">MAKE YOURSELF AT HOME</div><h2 id="guide-title">Your visitor guide.</h2><p>Move with <b>W A S D</b> or the arrow keys. The camera follows behind your full-body avatar. Drag to turn the camera; scroll to change its distance. On a phone, hold the arrow buttons to walk. Use + and − to zoom, the curved arrows to turn, and Reset to restore the view. You can also drag to look or pinch to zoom. Near walls, the camera automatically moves closer to keep your view inside the office.</p><p>Select any gallery on the left to go straight there. Approach a seated officer and press <b>T</b> to open their contact options. Press <b>E</b> or select “Explore this gallery” to read an exhibit and try its activity. <b>G</b> visits the next gallery; <b>H</b> returns to reception.</p><p>“View floor plan” gives you an overview: drag to orbit, then pinch or use the zoom buttons to change the view. This is a WebGL adaptation of the Blender model. The downloadable Unreal project still requires an Unreal build and play-test.</p><p class="small">A conceptual learning experience based on public DOS resources. Framed wall displays use dated SingStat data and guidance; open any gallery to enlarge its display and view its source. The original unframed chart bars are illustrative. This site does not accept survey responses. Your avatar name and contact draft remain in this visit until you choose to open an external contact app.</p><p><a href="/assets/DOS_Discovery_Office_Package.zip" download>Download original Blender + UE5 source ↓</a></p><a href="https://chat.vica.gov.sg/dos-ask-singstat?vica-session-handoff" target="_blank" rel="noopener noreferrer">Visit Ask SingStat ↗</a></dialog>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

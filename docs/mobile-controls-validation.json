@@ -1,0 +1,56 @@
+{
+  "portrait": [
+    390,
+    844
+  ],
+  "zoomButtons": true,
+  "turnButtons": true,
+  "reset": true,
+  "pinch": {
+    "before": 4.3,
+    "after": 2.8666666666666667
+  },
+  "holdToWalk": {
+    "before": [
+      8,
+      0.05,
+      0
+    ],
+    "after": [
+      6.8804399999999815,
+      0.05,
+      0
+    ],
+    "stopped": [
+      6.8804399999999815,
+      0.05,
+      0
+    ]
+  },
+  "floorPlanZoom": true,
+  "version": 5,
+  "access_mode": "public",
+  "deployment_status": "succeeded",
+  "deployment": "appgdep_6aaff89f64dc8191bfae0b53db18c7a7",
+  "commit": "c03a3f1b884bac3dcce13aa730e41a6b62f5d623",
+  "public_url": "https://dos-discovery-office.daniel-tianwen.chatgpt.site",
+  "anonymous_live_check": true,
+  "viewports_reviewed": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      1440,
+      900
+    ]
+  ]
+}

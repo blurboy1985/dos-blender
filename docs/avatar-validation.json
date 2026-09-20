@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-20",
+  "site_version": 3,
+  "commit": "fd4e4a8b0d0fb757196bb777c95caba417a7ebeb",
+  "deployment": "succeeded",
+  "audience": "owner-only",
+  "scope": "Hosted WebGL application; original Blender and Unreal source package remains separately labelled",
+  "checks": {
+    "production_build": "PASS",
+    "contact_url_unit_tests": "2 PASS",
+    "avatar_creation_and_appearance_changes": "PASS",
+    "desktop_and_mobile_render_review": "PASS",
+    "third_person_camera_and_player_collision": "PASS",
+    "four_gallery_quizzes_and_officer_contact_panels": "PASS",
+    "feedback_draft_encoding": "PASS",
+    "live_avatar_creation_and_officer_interaction": "PASS",
+    "live_browser_errors": 0,
+    "live_contact_destinations": "SANDRA official page and mailto:info@singstat.gov.sg"
+  },
+  "external_actions": "Contact destinations inspected; no email sent and no chatbot message submitted during testing."
+}

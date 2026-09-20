@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-09-20",
+  "url": "https://dos-discovery-office.daniel-tianwen.chatgpt.site",
+  "version": 4,
+  "commit": "e45822d77f68d03e16d66dbb3f205fa84441cfe9",
+  "deployment": "appgdep_6aaff5a97c2c8191a2393b2027faa9e7",
+  "deployment_status": "succeeded",
+  "access_mode": "public",
+  "checks": [
+    "Anonymous browser loaded WebGL scene and new avatar creator",
+    "Man and Woman have distinct hairstyle and clothing menus",
+    "40 randomisations preserved entered names and valid styles",
+    "Blank-name randomisation defaults to Visitor",
+    "Four gallery SVG images decoded",
+    "All four officer SANDRA and email URLs verified",
+    "Desktop and mobile 390x844 flows checked",
+    "Production build and 2 contact tests passed",
+    "No browser runtime errors observed"
+  ]
+}

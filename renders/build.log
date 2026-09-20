@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\dos-blender\scripts\build_office.py:27: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+C:\Users\Admin\Documents\dos-blender\scripts\build_office.py:200: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=scene.world; world.use_nodes=True
+00:04.235  blend            | Read blend: "C:\Users\Admin\Documents\dos-blender\assets\DOS_Discovery_Office.blend"
+00:11.328  render           | Saved: 'C:\Users\Admin\Documents\dos-blender\renders\office-overview.png'
+00:18.922  render           | Saved: 'C:\Users\Admin\Documents\dos-blender\renders\reception.png'
+00:28.375  render           | Saved: 'C:\Users\Admin\Documents\dos-blender\renders\statistics-gallery.png'
+00:38.625  render           | Saved: 'C:\Users\Admin\Documents\dos-blender\renders\floor-plan.png'
+Info: Saved as "DOS_Discovery_Office.blend"
+
+FBX export starting... 'C:\\Users\\Admin\\Documents\\dos-blender\\assets\\DOS_Office.fbx'
+export finished in 0.0981 sec.
+DOS_BUILD_COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

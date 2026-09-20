@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exhibits": 4,
+  "all_galleries_reachable": true,
+  "reachable_grid_cells": 12539,
+  "collision_boxes": 47,
+  "python_syntax": "PASS",
+  "files": "PASS",
+  "unreal_build": "NOT RUN - Unreal Editor unavailable",
+  "unreal_playtest": "NOT RUN"
+}

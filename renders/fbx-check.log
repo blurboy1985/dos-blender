@@ -1,0 +1,16 @@
+FBX version: 7400
+{
+  "status": "PASS",
+  "round_trip": "Blender FBX export and fresh import",
+  "mesh_size_metres": [
+    28.0,
+    24.0,
+    3.879999876022339
+  ],
+  "collision_boxes": 47,
+  "sockets": 10,
+  "note": "This does not replace the Unreal import and physics checks."
+}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

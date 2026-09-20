@@ -1,0 +1,676 @@
+{
+  "blender": "5.2.1 LTS",
+  "vertices": 130804,
+  "polygons": 100435,
+  "materials": 15,
+  "collision_boxes": 47,
+  "sockets": {
+    "Start": [
+      0,
+      -10,
+      1
+    ],
+    "StartFocus": [
+      0,
+      -5.5,
+      1
+    ],
+    "Station_0": [
+      -8,
+      0.0,
+      1
+    ],
+    "Focus_0": [
+      -8,
+      3.1,
+      1.5
+    ],
+    "Station_1": [
+      8,
+      0.0,
+      1
+    ],
+    "Focus_1": [
+      8,
+      3.1,
+      1.5
+    ],
+    "Station_2": [
+      -8,
+      6.0,
+      1
+    ],
+    "Focus_2": [
+      -8,
+      9.1,
+      1.5
+    ],
+    "Station_3": [
+      8,
+      6.0,
+      1
+    ],
+    "Focus_3": [
+      8,
+      9.1,
+      1.5
+    ]
+  },
+  "floor_metres": [
+    28,
+    24
+  ],
+  "colliders": [
+    {
+      "name": "Foundation",
+      "center": [
+        0,
+        0,
+        -0.18
+      ],
+      "size": [
+        28,
+        24,
+        0.32
+      ]
+    },
+    {
+      "name": "North wall",
+      "center": [
+        0,
+        11.85,
+        1.6
+      ],
+      "size": [
+        28,
+        0.2,
+        3.2
+      ]
+    },
+    {
+      "name": "Window sill",
+      "center": [
+        -13.85,
+        0,
+        0.4
+      ],
+      "size": [
+        0.2,
+        24,
+        0.8
+      ]
+    },
+    {
+      "name": "Window sill",
+      "center": [
+        13.85,
+        0,
+        0.4
+      ],
+      "size": [
+        0.2,
+        24,
+        0.8
+      ]
+    },
+    {
+      "name": "Entry wall",
+      "center": [
+        -10,
+        -11.85,
+        1.6
+      ],
+      "size": [
+        8,
+        0.2,
+        3.2
+      ]
+    },
+    {
+      "name": "Entry wall",
+      "center": [
+        10,
+        -11.85,
+        1.6
+      ],
+      "size": [
+        8,
+        0.2,
+        3.2
+      ]
+    },
+    {
+      "name": "West glazing",
+      "center": [
+        -13.9,
+        0,
+        1.6
+      ],
+      "size": [
+        0.2,
+        24,
+        3.2
+      ]
+    },
+    {
+      "name": "East glazing",
+      "center": [
+        13.9,
+        0,
+        1.6
+      ],
+      "size": [
+        0.2,
+        24,
+        3.2
+      ]
+    },
+    {
+      "name": "Entry boundary",
+      "center": [
+        0,
+        -11.9,
+        1.6
+      ],
+      "size": [
+        12,
+        0.2,
+        3.2
+      ]
+    },
+    {
+      "name": "Reception feature",
+      "center": [
+        0,
+        -5.6,
+        1.5
+      ],
+      "size": [
+        6,
+        0.22,
+        3
+      ]
+    },
+    {
+      "name": "Reception counter",
+      "center": [
+        0,
+        -7.0,
+        0.55
+      ],
+      "size": [
+        4.6,
+        0.9,
+        1.1
+      ]
+    },
+    {
+      "name": "Planter",
+      "center": [
+        -4,
+        -5.7,
+        0.55
+      ],
+      "size": [
+        0.65,
+        0.65,
+        1.1
+      ]
+    },
+    {
+      "name": "Planter",
+      "center": [
+        4,
+        -5.7,
+        0.55
+      ],
+      "size": [
+        0.65,
+        0.65,
+        1.1
+      ]
+    },
+    {
+      "name": "Lounge sofa",
+      "center": [
+        -9,
+        -8,
+        0.43
+      ],
+      "size": [
+        3,
+        1,
+        0.48
+      ]
+    },
+    {
+      "name": "Lounge table",
+      "center": [
+        -9,
+        -6.5,
+        0.25
+      ],
+      "size": [
+        1.3,
+        1.3,
+        0.5
+      ]
+    },
+    {
+      "name": "Planter",
+      "center": [
+        -6.8,
+        -8,
+        0.55
+      ],
+      "size": [
+        0.65,
+        0.65,
+        1.1
+      ]
+    },
+    {
+      "name": "Lounge sofa",
+      "center": [
+        9,
+        -8,
+        0.43
+      ],
+      "size": [
+        3,
+        1,
+        0.48
+      ]
+    },
+    {
+      "name": "Lounge table",
+      "center": [
+        9,
+        -6.5,
+        0.25
+      ],
+      "size": [
+        1.3,
+        1.3,
+        0.5
+      ]
+    },
+    {
+      "name": "Planter",
+      "center": [
+        11.2,
+        -8,
+        0.55
+      ],
+      "size": [
+        0.65,
+        0.65,
+        1.1
+      ]
+    },
+    {
+      "name": "Exhibit wall statistics",
+      "center": [
+        -8,
+        3.35,
+        1.55
+      ],
+      "size": [
+        8.7,
+        0.2,
+        3.1
+      ]
+    },
+    {
+      "name": "Interactive plinth statistics",
+      "center": [
+        -8,
+        1.4,
+        0.52
+      ],
+      "size": [
+        1.15,
+        0.6,
+        1.04
+      ]
+    },
+    {
+      "name": "Planter",
+      "center": [
+        -4.2,
+        2.5,
+        0.55
+      ],
+      "size": [
+        0.65,
+        0.65,
+        1.1
+      ]
+    },
+    {
+      "name": "Room divider",
+      "center": [
+        -2.7,
+        3.1,
+        1.4
+      ],
+      "size": [
+        0.12,
+        2.1,
+        2.8
+      ]
+    },
+    {
+      "name": "Room divider",
+      "center": [
+        -2.7,
+        -0.7000000000000002,
+        1.4
+      ],
+      "size": [
+        0.12,
+        1.25,
+        2.8
+      ]
+    },
+    {
+      "name": "Exhibit wall digital",
+      "center": [
+        8,
+        3.35,
+        1.55
+      ],
+      "size": [
+        8.7,
+        0.2,
+        3.1
+      ]
+    },
+    {
+      "name": "Interactive plinth digital",
+      "center": [
+        8,
+        1.4,
+        0.52
+      ],
+      "size": [
+        1.15,
+        0.6,
+        1.04
+      ]
+    },
+    {
+      "name": "Planter",
+      "center": [
+        11.8,
+        2.5,
+        0.55
+      ],
+      "size": [
+        0.65,
+        0.65,
+        1.1
+      ]
+    },
+    {
+      "name": "Room divider",
+      "center": [
+        2.7,
+        3.1,
+        1.4
+      ],
+      "size": [
+        0.12,
+        2.1,
+        2.8
+      ]
+    },
+    {
+      "name": "Room divider",
+      "center": [
+        2.7,
+        -0.7000000000000002,
+        1.4
+      ],
+      "size": [
+        0.12,
+        1.25,
+        2.8
+      ]
+    },
+    {
+      "name": "Exhibit wall standards",
+      "center": [
+        -8,
+        9.35,
+        1.55
+      ],
+      "size": [
+        8.7,
+        0.2,
+        3.1
+      ]
+    },
+    {
+      "name": "Interactive plinth standards",
+      "center": [
+        -8,
+        7.4,
+        0.52
+      ],
+      "size": [
+        1.15,
+        0.6,
+        1.04
+      ]
+    },
+    {
+      "name": "Planter",
+      "center": [
+        -4.2,
+        8.5,
+        0.55
+      ],
+      "size": [
+        0.65,
+        0.65,
+        1.1
+      ]
+    },
+    {
+      "name": "Room divider",
+      "center": [
+        -2.7,
+        9.1,
+        1.4
+      ],
+      "size": [
+        0.12,
+        2.1,
+        2.8
+      ]
+    },
+    {
+      "name": "Room divider",
+      "center": [
+        -2.7,
+        5.3,
+        1.4
+      ],
+      "size": [
+        0.12,
+        1.25,
+        2.8
+      ]
+    },
+    {
+      "name": "Exhibit wall surveys",
+      "center": [
+        8,
+        9.35,
+        1.55
+      ],
+      "size": [
+        8.7,
+        0.2,
+        3.1
+      ]
+    },
+    {
+      "name": "Interactive plinth surveys",
+      "center": [
+        8,
+        7.4,
+        0.52
+      ],
+      "size": [
+        1.15,
+        0.6,
+        1.04
+      ]
+    },
+    {
+      "name": "Planter",
+      "center": [
+        11.8,
+        8.5,
+        0.55
+      ],
+      "size": [
+        0.65,
+        0.65,
+        1.1
+      ]
+    },
+    {
+      "name": "Room divider",
+      "center": [
+        2.7,
+        9.1,
+        1.4
+      ],
+      "size": [
+        0.12,
+        2.1,
+        2.8
+      ]
+    },
+    {
+      "name": "Room divider",
+      "center": [
+        2.7,
+        5.3,
+        1.4
+      ],
+      "size": [
+        0.12,
+        1.25,
+        2.8
+      ]
+    },
+    {
+      "name": "Desk",
+      "center": [
+        -10.8,
+        -2.7,
+        0.76
+      ],
+      "size": [
+        1.7,
+        0.8,
+        0.08
+      ]
+    },
+    {
+      "name": "Chair",
+      "center": [
+        -10.8,
+        -3.62,
+        0.5
+      ],
+      "size": [
+        0.6,
+        0.6,
+        1
+      ]
+    },
+    {
+      "name": "Desk",
+      "center": [
+        -7.7,
+        -2.7,
+        0.76
+      ],
+      "size": [
+        1.7,
+        0.8,
+        0.08
+      ]
+    },
+    {
+      "name": "Chair",
+      "center": [
+        -7.7,
+        -3.62,
+        0.5
+      ],
+      "size": [
+        0.6,
+        0.6,
+        1
+      ]
+    },
+    {
+      "name": "Desk",
+      "center": [
+        7.7,
+        -2.7,
+        0.76
+      ],
+      "size": [
+        1.7,
+        0.8,
+        0.08
+      ]
+    },
+    {
+      "name": "Chair",
+      "center": [
+        7.7,
+        -3.62,
+        0.5
+      ],
+      "size": [
+        0.6,
+        0.6,
+        1
+      ]
+    },
+    {
+      "name": "Desk",
+      "center": [
+        10.8,
+        -2.7,
+        0.76
+      ],
+      "size": [
+        1.7,
+        0.8,
+        0.08
+      ]
+    },
+    {
+      "name": "Chair",
+      "center": [
+        10.8,
+        -3.62,
+        0.5
+      ],
+      "size": [
+        0.6,
+        0.6,
+        1
+      ]
+    }
+  ]
+}

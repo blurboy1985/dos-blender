@@ -1,0 +1,43 @@
+{
+  "title": "DOS Discovery Office",
+  "layout_status": "Conceptual visitor layout, not a surveyed DOS office",
+  "reviewed_on": "2026-09-20",
+  "exhibits": [
+    {
+      "id": "statistics", "title": "01  Statistics in everyday decisions", "short_title": "STATISTICS", "color": "#34bdb2",
+      "x": -8, "y": 2,
+      "body": "Explore Singapore through economy, population, household and industry statistics. A useful starting point is a clear question: who, what period and which measure? Before comparing values, check the units, reference period, definitions and footnotes. Open the framed wall display below for a dated population snapshot from SingStat. The original unframed bars in the room remain illustrative.",
+      "activity": "Your team needs population figures for a briefing. Which should you check before comparing two tables?",
+      "choices": ["Definitions, population coverage and reference dates", "Only which number is larger"], "answer": 1,
+      "explanation": "Correct. Comparable definitions and periods are essential for a meaningful comparison.",
+      "url": "https://tablebuilder.singstat.gov.sg/", "source_label": "SingStat Table Builder"
+    },
+    {
+      "id": "digital", "title": "02  Your digital services toolkit", "short_title": "DIGITAL SERVICES", "color": "#5686df",
+      "x": 8, "y": 2,
+      "body": "SingStat Table Builder helps you select data, customise tables and download results. Its APIs support data retrieval. The DOS digital toolkit also includes the SingStat Mobile App and Business Insights Tool for Enterprises (BITE). Try a task: find a relevant series, read its metadata and select an appropriate output for your briefing.",
+      "activity": "You need a customised table for analysis. Which tool is the best starting point?",
+      "choices": ["A screenshot with no source information", "SingStat Table Builder"], "answer": 2,
+      "explanation": "Correct. Table Builder supports customised tables and downloads. Retain the source and metadata with your analysis.",
+      "url": "https://www.singstat.gov.sg/data-tools-services/business-insights-tool-for-enterprises-bite", "source_label": "DOS Business Insights Tool for Enterprises"
+    },
+    {
+      "id": "standards", "title": "03  A common statistical language", "short_title": "STANDARDS", "color": "#c498dd",
+      "x": -8, "y": 8,
+      "body": "Singapore Standard Industrial Classification (SSIC) groups economic activities. Singapore Standard Occupational Classification (SSOC) groups occupations. They answer different questions: what an organisation does, and what work a person performs. Use the relevant definitions and edition when classifying records or comparing datasets.",
+      "activity": "You are classifying a person's occupation, rather than their employer's industry. Which classification applies?",
+      "choices": ["SSOC", "SSIC"], "answer": 1,
+      "explanation": "Correct. SSOC classifies occupations. SSIC classifies economic activities.",
+      "url": "https://www.singstat.gov.sg/standard-classifications/national-classifications/singapore-standard-occupational-classification-ssoc", "source_label": "DOS Singapore Standard Occupational Classification"
+    },
+    {
+      "id": "surveys", "title": "04  From responses to statistics", "short_title": "SURVEYS", "color": "#e4ab53",
+      "x": 8, "y": 8,
+      "body": "Surveys help DOS understand businesses and households. The Household Expenditure Survey collects information about household spending and socio-economic characteristics. Ask SingStat also directs respondents to business and price survey portals. This visitor exhibit is a learning activity; use the relevant official portal for an actual survey response.",
+      "activity": "You receive an official survey invitation. Where should you submit the real response?",
+      "choices": ["Inside this office walkthrough", "Through the relevant official survey channel"], "answer": 2,
+      "explanation": "Correct. This walkthrough does not collect survey returns or personal information.",
+      "url": "https://www.singstat.gov.sg/data-tools-services/participate-in-our-surveys", "source_label": "DOS Participate in Our Surveys"
+    }
+  ]
+}

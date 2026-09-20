@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-20",
+  "url": "https://dos-discovery-office.daniel-tianwen.chatgpt.site",
+  "project_id": "appgprj_6aafe952235481919eb5aa445860ae7c",
+  "version": 2,
+  "commit": "d5403d7124a065f23eef33a6a2f434949d8dd840",
+  "deployment": "succeeded",
+  "audience": "owner-only",
+  "local_checks": {
+    "production_build": "PASS",
+    "four_gallery_navigation_and_answers": "PASS",
+    "wrong_answer_feedback": "PASS",
+    "reception_counter_collision": "PASS - visitor stopped at z=7.77934 metres",
+    "floor_plan_toggle": "PASS",
+    "desktop_and_mobile_visual_review": "PASS",
+    "browser_errors": 0,
+    "compact_desktop_layout": "PASS"
+  },
+  "hosted_checks": {
+    "authenticated_html": "HTTP 200",
+    "model_loaded": true,
+    "webgl": true,
+    "statistics_activity": "PASS",
+    "browser_errors": 0,
+    "unauthenticated_access": "Sign in required"
+  },
+  "limitations": "WebGL browser adaptation; Unreal source still needs engine build and play-test. No public access enabled."
+}
